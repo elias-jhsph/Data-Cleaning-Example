@@ -10,11 +10,10 @@ For information on the original data see the original readme at "UCI HAR Dataset
 The cleaned data includes two data files in .txt format
 
 # The dataset includes the following files:
-===========================================
 
 - 'README.md': This document
 
-- 'CodeBook.md': A code book that includes all the cleaned varibles in both files in the directory "Cleaned UCI HAR Dataset"
+- 'CodeBook.Rmd': A code book that includes all the cleaned varibles in both files in the directory "Cleaned UCI HAR Dataset"
 
 - 'run_analysis.R': R code that creates and populates the directory "Cleaned UCI HAR Dataset" from the directory "UCI HAR Dataset"
 
@@ -25,7 +24,6 @@ The cleaned data includes two data files in .txt format
 - 'Cleaned UCI HAR Dataset/idependent_tidy_subject_activities_means.txt': The means for each variable in the full_clean_uci_har_data.txt by subject and activity
 
 # Notes: 
-========
 - ALL variables with an original name including "mean" or "std" were included using grep of "mean|std" on colnames
 - To rerun code after cloning directory remember to delete the directory "Cleaned UCI HAR Dataset" before running run_analysis.R
 
